@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Crypto-Currency-React-App/static/css/main.5261bbe4.css",
+    "main.js": "/Crypto-Currency-React-App/static/js/main.e7f1a241.js",
+    "static/media/bannerImg.jpg": "/Crypto-Currency-React-App/static/media/bannerImg.62aa0e0b2ae1c839bcbc.jpg",
+    "static/media/icons8-instagram.gif": "/Crypto-Currency-React-App/static/media/icons8-instagram.be0aee7cf4f2d36d8bc4.gif",
+    "static/media/icons8-twitter-circled.gif": "/Crypto-Currency-React-App/static/media/icons8-twitter-circled.086d4a409fe73f9804d7.gif",
+    "static/media/icons8-linkedin-circled.gif": "/Crypto-Currency-React-App/static/media/icons8-linkedin-circled.2d674a21a1e75f761894.gif",
+    "static/media/icons8-github.gif": "/Crypto-Currency-React-App/static/media/icons8-github.7d909b64afc22f8b5ad3.gif",
+    "index.html": "/Crypto-Currency-React-App/index.html",
+    "main.5261bbe4.css.map": "/Crypto-Currency-React-App/static/css/main.5261bbe4.css.map",
+    "main.e7f1a241.js.map": "/Crypto-Currency-React-App/static/js/main.e7f1a241.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5261bbe4.css",
+    "static/js/main.e7f1a241.js"
+  ]
+}
