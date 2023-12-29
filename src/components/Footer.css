@@ -1,0 +1,43 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socicon {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 20px;
+    
+  }
+  
+  .copy {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .copy a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .copy a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    .socials {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

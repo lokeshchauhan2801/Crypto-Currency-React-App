@@ -1,0 +1,51 @@
+.carousel{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    color:white;
+    
+}
+
+.carousel-item{
+    padding-top:40px;
+  }
+
+.carousel-item img {
+    border-radius:40px;
+
+
+}
+
+.carousel-item p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.currency-change {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 10px; 
+  
+    
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+  
+  .usd-button,
+  .inr-button {
+    height: 40px;
+    font-weight: bold;
+    width: 60px;
+    border-radius: 22px;
+    margin: 0 5px;
+    padding: 0 12px;
+  
+    @media (max-width: 600px) {
+      width: 100%; 
+      margin: 5px 0; 
+    }
+  }
+  
