@@ -12,8 +12,8 @@
   }
   
   .socicon {
-    width: 50px; /* Adjust the size as needed */
-    height: 50px;
+    width:50px; /* Adjust the size as needed */
+    height:50px;
     border-radius: 20px;
     
   }
@@ -36,8 +36,13 @@
   /* Responsive Styling */
   @media (max-width: 600px) {
     .socials {
-      flex-direction: column;
+      flex-direction: row;
+      flex-direction: wrap;
       align-items: center;
+    
+    }
+    .socicon{
+      margin-bottom: 10px;
     }
   }
   
