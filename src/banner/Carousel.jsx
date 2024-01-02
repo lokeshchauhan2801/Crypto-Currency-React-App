@@ -11,12 +11,14 @@ const Carousel = () => {
   // const[currencySym ,setCurrencySym] = useState('$')
  
   const fetchTrendingCoins = async () => {
+    // const CorsAnywhere = "https://cors-anywhere.herokuapp.com/"
     try {
       let url = `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currencyChange}&order=market_cap_desc&per_page=100&page=1&sparkline=false`;
       // let  url =  `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&order=gecko_desc&per_page=10&page=1&sparkline=false&price_change_percentage=24h`
       // let url = 'https://api.coingecko.com/api/v3/search/trending';
       const response = await fetch(url);
       const data = await response.json();
+      console.log(data)
       // setTrending(data.coins); 
       setTrending(data) 
     } catch (error) {
@@ -90,5 +92,4 @@ const Carousel = () => {
 };
 
 export default Carousel;
-
 

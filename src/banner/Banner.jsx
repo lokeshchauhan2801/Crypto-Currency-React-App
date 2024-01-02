@@ -8,8 +8,10 @@ const Banner = () => {
    <h1>Crypto Currency  </h1>
    <p>Explore Comprehensive Details About Your Preferred Cryptocurrency</p>          
    <Carousel/>
-    </div>
+   </div>
+   
     <CoinsTable/>
+    
   </div>
   )
 };

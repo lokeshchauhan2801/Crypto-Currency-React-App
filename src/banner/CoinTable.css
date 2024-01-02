@@ -1,40 +1,37 @@
-/* Your existing CSS */
-
-.coin-table {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
 .search-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  /* width: 100%; */
-  margin-bottom: 20px; /* Add margin for spacing between search container and table */
+  margin-top:0px;
+  background-color:#333;
+  padding:20px;
 }
 
 .search-input {
-  padding: 5px;
-  margin-bottom: 10px;
-  width: 100%; /* Set width to 100% for all screen sizes */
+  padding:30px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
   background-color: white;
-  color: black;
 }
 
 .search-button {
-  padding: 5px;
-  margin-bottom: 10px;
-  width: 100%; /* Set width to 100% for all screen sizes */
-  background-color: white;
+  padding: 10px;
+  background-color: gold;
   color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Media query for responsiveness */
-@media (min-width: 769px) {
+@media (max-width: 768px) {
   .search-container {
-    width: 50%; /* Reset width for larger screens */
-    margin: auto;
+    flex-direction: column;
+    align-items: stretch;
   }
+
+
 }
 
   table {
@@ -77,4 +74,29 @@
     height: 60px; /* Adjust the height for smaller screens */
   }
 }
-  
+/* Add the following CSS for jump buttons */
+.jump-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px; /* Add margin for spacing between buttons */
+}
+
+.jump-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional Media query for jump buttons responsiveness */
+@media (max-width: 768px) {
+  .navigate-btn {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .jump-button {
+    margin-bottom: 5px; /* Add margin for spacing between buttons */
+  }
+}
