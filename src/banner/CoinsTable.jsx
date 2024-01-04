@@ -10,6 +10,7 @@ const CoinsTable = () => {
   const { currencyChange, symbol } = CryptoState();
   const [pageJump, setPageJump] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+ 
 
   const fetchCoins = async () => {
     setLoading(true);
@@ -26,7 +27,7 @@ const CoinsTable = () => {
 
   const handleSearchDebounced = debounce(() => {
     console.log('Searching for:', search);
-    fetchCoins();
+    // fetchCoins();
   }, 300);
 
   const handlePageJump = (pageNumber) => {
@@ -38,7 +39,7 @@ const CoinsTable = () => {
   }, [currencyChange, pageJump]);
 
   useEffect(() => {
-    // Set the total pages based on the fetched data or any other logic
+   
     setTotalPages(10);
   }, [coinList]);
 
@@ -61,7 +62,7 @@ const CoinsTable = () => {
           type="text"
           placeholder="Search for a coin..."
           value={search}
-          onChange={(e) => {
+          onClick={(e) => {
             setSearch(e.target.value);
             handleSearchDebounced();
           }}
